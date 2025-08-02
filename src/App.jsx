@@ -38,7 +38,9 @@ function App() {
     <div
       className="w-full h-screen flex flex-wrap justify-center items-center bg-cover bg-no-repeat"
       style={{
-        backgroundImage: `url('./src/assets/image.jpg')`,
+        backgroundImage: `url('/image.png')`,
+        backgroundSize: "cover",
+        backgroundPosition: "center",
       }}
     >
       <div className="w-full">
